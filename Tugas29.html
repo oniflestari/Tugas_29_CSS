@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tugas CSS - Niomic</title>
+  <link rel="stylesheet" type="text/css" href="semantic.min.css">
+  <style type="text/css">
+  body {
+    background-color: #ccc;
+  }
+
+  .konten {
+    margin-top: 100px;
+  }
+
+  img {
+    margin-right: 10px;
+  }
+
+  .formulir {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="ui center aligned container">
+    <div class="ui grid">
+      <div class="row konten">
+        <div class="five wide column"></div>
+        <div class="six wide column ">
+          <!-- Judul -->
+          <img class="ui middle aligned image" src="img/niomic.png" width="50px">
+          <span class="ui header teal">Daftar Akun Niomic</span>
+          <!-- Akhir Judul -->
+          <!-- Formulir -->
+          <div class="ui form formulir">
+            <div class="field">
+              <div class="ui left icon input">
+                <input type="text" placeholder="Nama Depan">
+                <i class="user icon"></i>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui left icon input">
+                <input type="text" placeholder="Nama Belakang">
+                <i class="user icon"></i>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui left icon input">
+                <input type="tel" placeholder="Nama No Telp/HP">
+                <i class="user icon"></i>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui left icon input">
+                <input type="email" placeholder="Alamat Email">
+                <i class="user icon"></i>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui left icon input">
+                <input type="password" placeholder="Password">
+                <i class="lock icon"></i>
+              </div>
+            </div>
+            <button class="ui teal fluid button">Login</button>
+          </div>
+          <!-- Akhir Formulir -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="js/semantic.min.js"></script>
+</body>
+
+</html>
